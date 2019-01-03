@@ -70,12 +70,12 @@ set backspace=indent,eol,start
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 noremap <silent> qq <ESC>
 " 日本語入力で”っj”と入力してもEnterキーで確定させればインサートモードを抜ける
-inoremap <silent> jj <ESC>
-inoremap { {} <ESC>hi
-inoremap [ [] <ESC>hi
-inoremap ( () <ESC>hi
-inoremap " "" <ESC>hi
-inoremap ' '' <ESC>hi
+inoremap <silent> jj <ESC>l
+inoremap { {}<ESC>i
+inoremap [ []<ESC>i
+inoremap ( ()<ESC>i
+inoremap " ""<ESC>i
+inoremap ' ''<ESC>i
 "----------------------------------------
 "" neocomplcache
 "----------------------------------------
